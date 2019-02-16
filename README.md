@@ -7,5 +7,6 @@ Jen-Yu Liu and Yi-Hsuan Yang, "Denoising Auto-encoder with Recurrent Skip Connec
 
 Click [here] to download the pretrained models.
 
-[//]:
+[//]:#
+
    [here]:https://drive.google.com/open?id=19XgD3Iq04E7Hviiub6v430xsWYzil9ow
