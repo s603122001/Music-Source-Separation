@@ -3,7 +3,7 @@ A Pytorch implementation of the model described in:
 
 Jen-Yu Liu and Yi-Hsuan Yang, "Denoising Auto-encoder with Recurrent Skip Connections and Residual Regression for Music Source Separation".
 
-[paper]
+[Paper]
 
 ### Pretrained Models
 
