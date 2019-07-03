@@ -24,11 +24,11 @@ class ARC(nn.Module):
         
         #GRU layer output shape (seq_len, batch, num_directions * hidden_size)
         x_s1 = x_s1.permute(0, 2, 1)
-        x_s1 = self.leaky_relu(self.gru1(x_s1)[0])
+        x_s1 = self.gru1(x_s1)[0]
         x_s1 = x_s1.permute(0, 2, 1)
         
         x_s2 = x_s2.permute(0, 2, 1)
-        x_s2 = self.leaky_relu(self.gru2(x_s2)[0])
+        x_s2 = self.gru2(x_s2)[0]
         x_s2 = x_s2.permute(0, 2, 1)
         
         x = self.leaky_relu(self.Tconv1(x))
